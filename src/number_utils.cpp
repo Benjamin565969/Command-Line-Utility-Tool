@@ -4,12 +4,10 @@
 #include <numeric>
 #include <vector>
 
-
 double calcMean(const std::vector<double>& data) {
     double total = std::accumulate(data.begin(), data.end(), 0.0);
     return total / static_cast<double>(data.size());
 }
-
 
 double calcMedian(const std::vector<double>& sorted_data) {
     int size = sorted_data.size();
@@ -23,7 +21,6 @@ double calcMedian(const std::vector<double>& sorted_data) {
         return sorted_data[size / 2];
     }
 }
-
 
 std::vector<double> calcMode(const std::vector<double>& data) {
     // The datapoint is the key and the datapoint's frequency is the value in the key-value pair
@@ -47,7 +44,6 @@ std::vector<double> calcMode(const std::vector<double>& data) {
     }
     return modes;
 }
-
 
 SummaryStats calcSummaryStats(std::vector<double>& data) {
     if (data.empty()) {
