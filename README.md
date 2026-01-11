@@ -33,11 +33,13 @@ The text utilities include:
 ## Repository Structure
 ```
 Command-Line-Utility-Tool/
-├── main.cpp
-├── number_utilities.cpp
-├── text_utilities.cpp
+├── src/
+│   ├── main.cpp
+│   ├── number_utils.cpp
+│   └── text_utils.cpp
 ├── include/
-│   └── utilities.h
+│   └── utils.h
+├── LICENSE
 ├── README.md
 ```
 
