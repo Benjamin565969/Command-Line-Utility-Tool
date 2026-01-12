@@ -34,3 +34,22 @@ std::map<std::string, int> calcWordFrequencies(const std::string& input) {
 
     return word_frequencies;
 }
+
+bool isPalindrome(const std::string& input) {
+    auto left = input.begin();
+    auto right = input.end();
+
+    if (left == right) return true; // empty string
+
+    --right; // move to last valid character
+
+    while (left < right) {
+        if (*left != *right) {
+            return false;
+        }
+        ++left;
+        --right;
+    }
+
+    return true;
+}
