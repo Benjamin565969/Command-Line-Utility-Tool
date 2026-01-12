@@ -19,12 +19,14 @@ The utility functions implemented in this project have been divided into number 
 ```
 Command-Line-Utility-Tool/
 ├── src/
+│   ├── include/
+│   │   └── gui_utils.h
+│   │   └── number_utils.h
+│   │   └── text_utils.h
+│   ├── gui_utils.cpp
 │   ├── main.cpp
 │   ├── number_utils.cpp
 │   └── text_utils.cpp
-├── include/
-│   └── number_utils.h
-│   └── text_utils.h
 ├── LICENSE
 ├── README.md
 ```

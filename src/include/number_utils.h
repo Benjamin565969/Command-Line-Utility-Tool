@@ -10,3 +10,4 @@ struct SummaryStats {
 };
 
 SummaryStats calcSummaryStats(std::vector<double>& data);
+bool isPrime(int num);

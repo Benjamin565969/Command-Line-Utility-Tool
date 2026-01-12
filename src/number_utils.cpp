@@ -1,6 +1,5 @@
 #include "number_utils.h"
 #include <algorithm>
-#include <cmath>
 #include <map>
 #include <numeric>
 #include <vector>
